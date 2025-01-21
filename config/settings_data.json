@@ -188,17 +188,22 @@
               "heading": "Our mission",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
             }
+          },
+          "footer-3": {
+            "type": "text",
+            "settings": {
+              "heading": "Section title",
+              "subtext": "<p>You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called \"Arthur King,\" you and all your silly English K-nig-hts..</p>"
+            }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
+          "footer-3"
         ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
