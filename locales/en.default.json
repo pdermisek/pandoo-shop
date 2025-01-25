@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "general": {
     "password_page": {
       "login_form_heading": "Enter store using password:",
@@ -67,7 +67,8 @@
   "newsletter": {
     "label": "Email",
     "success": "Thanks for subscribing",
-    "button_label": "Subscribe"
+    "button_label": "Subscribe",
+    "send": "Send"
   },
   "accessibility": {
     "skip_to_text": "Skip to content",
