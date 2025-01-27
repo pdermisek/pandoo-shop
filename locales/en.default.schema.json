@@ -2136,6 +2136,9 @@
             "title": {
               "label": "Heading"
             },
+            "subtitle": {
+              "label": "Sub-Heading"
+            },
             "text": {
               "label": "Description"
             },

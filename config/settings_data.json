@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "current": {
     "colors_solid_button_labels": "#333333",
     "colors_accent_1": "#87de87",
@@ -28,7 +28,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
-    "buttons_border_thickness": 1,
+    "buttons_border_thickness": 0,
     "buttons_border_opacity": 100,
     "buttons_radius": 12,
     "buttons_shadow_opacity": 0,
@@ -42,14 +42,14 @@
     "variant_pills_shadow_horizontal_offset": 0,
     "variant_pills_shadow_vertical_offset": 4,
     "variant_pills_shadow_blur": 5,
-    "inputs_border_thickness": 0,
+    "inputs_border_thickness": 1,
     "inputs_border_opacity": 55,
-    "inputs_radius": 0,
+    "inputs_radius": 12,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
     "inputs_shadow_blur": 5,
-    "card_style": "standard",
+    "card_style": "card",
     "card_image_padding": 0,
     "card_text_alignment": "left",
     "card_color_scheme": "background-2",
@@ -126,7 +126,6 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/logo-pandoo.png",
     "currency_code_enabled": true,
     "cart_type": "drawer",
     "show_vendor": false,
@@ -154,6 +153,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
+          "logo": "shopify://shop_images/logo-pandoo_5e511d19-dc89-4da6-b319-321af2a541a1.png",
           "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -169,29 +169,45 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "Info",
+              "menu": "footer"
+            }
+          },
           "footer-2": {
             "type": "text",
             "settings": {
               "heading": "Section title",
-              "subtext": "<p>You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called \"Arthur King,\" you and all your silly English K-nig-hts..</p>"
+              "subtext": "<p>You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called \"Arthur King,\" you and all your silly English K-nig-hts.</p>"
             }
           }
         },
         "block_order": [
+          "footer-0",
+          "footer-1",
           "footer-2"
         ],
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
-          "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "color_scheme": "background-2",
+          "newsletter_enable": false,
           "newsletter_heading": "",
-          "show_social": false,
+          "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
-          "payment_enable": false,
-          "margin_top": 80,
+          "payment_enable": true,
+          "margin_top": 48,
           "padding_top": 36,
           "padding_bottom": 36
         }
@@ -211,9 +227,7 @@
         }
       }
     },
-    "content_for_index": [
-      
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Default": {
