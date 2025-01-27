@@ -27,7 +27,7 @@
 <div class="multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div class="page-width section-{{ section.id }}-padding isolate">
     {%- unless section.settings.title == blank -%}
-      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
+      <div class="title-wrapper-with-link title-alignment--center title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
         <h2 class="title {{ section.settings.heading_size }}">
           {{ section.settings.title | escape }}
         </h2>
@@ -74,12 +74,16 @@
                       class: 'multicolumn-card__image'
                     }}
                   </div>
-                    {%- if block.settings.title != blank -%}
-                    <h3 class="multicolumn-card__info--title">{{ block.settings.title | escape }}</h3>
+                  {%- if block.settings.title != blank -%}
+                    <div class="multicolumn-card__title">
+                      <h3 class="multicolumn-card__info--title">{{ block.settings.title | escape }}</h3>
+                      <h3 class="multicolumn-card__info--subtitle">{{ block.settings.subtitle | escape }}</h3>
+                    </div>
                   {%- endif -%}
                 </div>
               {%- endif -%}
               <div class="multicolumn-card__info">
+                
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
@@ -337,6 +341,12 @@
           "id": "title",
           "default": "Column",
           "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+        },
+        {
+              "type": "text",
+              "id": "subtitle",
+              "default": "Card subtitle",
+              "label": "t:sections.multicolumn.blocks.column.settings.subtitle.label"
         },
         {
           "type": "richtext",

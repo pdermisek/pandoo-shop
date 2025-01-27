@@ -1,0 +1,24 @@
+.landing-button{
+    border-radius: 12px !important;
+    background-color: rgba(var(--color-base-accent-1));
+    color: rgba(var(--color-background));
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.13px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    opacity: 1 !important;
+    box-shadow:  0 0 0 0 !important;
+    padding-inline: 42px !important;
+    padding-block: 25px !important;
+  }
+
+
+  .button:after,
+  .shopify-challenge__button:after,
+  .customer button:after,
+  .shopify-payment-button__button--unbranded:after {
+    box-shadow: none !important;
+  }

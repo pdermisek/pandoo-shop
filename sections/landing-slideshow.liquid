@@ -1,0 +1,128 @@
+{{ 'glide.core.css'  | asset_url | stylesheet_tag }}
+{{ 'glide.theme.css' | asset_url | stylesheet_tag }}
+{{ 'landing-slideshow.css' | asset_url | stylesheet_tag }}
+
+
+
+<div class="glide">
+  <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">
+      {% for block in section.blocks %}
+        <li class="glide__slide">
+          <img src="{{ block.settings.image | image_url: width: 552, height: 321 }}" alt="Slide {{ forloop.index }}" class="image__item" height="321" width="552"/>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 32.0182C0 31.4842 0.219997 30.9742 0.585999 30.5902L20.384 10.5922C21.166 9.80224 22.432 9.80424 23.212 10.5922C23.994 11.3802 23.994 12.6602 23.212 13.4482L6.826 29.9982H62C63.104 29.9982 64 30.9022 64 32.0182C64 33.1342 63.104 34.0382 62 34.0382H6.828L23.212 50.5882C23.994 51.3762 23.992 52.6562 23.212 53.4442C22.43 54.2322 21.164 54.2322 20.384 53.4442L0.585999 33.4462C0.211998 33.0682 0.00600052 32.5482 0 32.0182Z" fill="#333333"/>
+        </svg> 
+    </button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M64 32.0182C64 31.4842 63.78 30.9742 63.414 30.5902L43.616 10.5922C42.834 9.80224 41.568 9.80424 40.788 10.5922C40.006 11.3802 40.006 12.6602 40.788 13.4482L57.174 29.9982H2C0.896 29.9982 0 30.9022 0 32.0182C0 33.1342 0.896 34.0382 2 34.0382H57.172L40.788 50.5882C40.006 51.3762 40.008 52.6562 40.788 53.4442C41.57 54.2322 42.836 54.2322 43.616 53.4442L63.414 33.4462C63.788 33.0682 63.994 32.5482 64 32.0182Z" fill="#333333"/>
+        </svg>    
+    </button>
+</div>
+</div>
+
+
+  <script src="{{ 'glide.js' | asset_url }}" defer="defer"></script>
+  <script>
+    window.addEventListener('load', ()=>{
+      const config = {
+          type: 'carousel',
+          perView: 3.25,
+          focusAt: 'center',
+          startAt: 2,
+          gap: 24,
+          breakpoints: {
+                375: {
+                    perView: 1.2, gap: 22,
+                },
+                426:{
+                    perView: 1.5, gap: 22,
+                },
+                921:{
+                    perView: 1.8, gap: 24,
+                },
+                1441: {
+                    perView: 2.5, gap: 24,
+                }
+            }
+      }
+      new Glide('.glide', config).mount()
+    });
+  </script>
+
+{% schema %}
+{
+  "name": "Landing slideshow",
+  "tag": "section",
+  "class": "section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "t:sections.slideshow.blocks.slide.name",
+      "limit": 5,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.slideshow.blocks.slide.settings.image.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Landing slideshow",
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+{% comment %} 
+
+            <img src="{{ block.settings.image | image_url: width: 552, height: 321 }}" alt="Slide {{ forloop.index }}" class="glide__image" height="321" width="552"/>
+
+
+  <div class="slideshow banner grid grid--1-col>
+    {%- for block in section.blocks -%}
+      <div class="slideshow__slide grid__item grid--1-col slider__slide"
+        id="Slide-{{ section.id }}-{{ forloop.index }}"
+        {{ block.shopify_attributes }}
+        role="group"
+        aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+        aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+        tabindex="-1"
+      >
+        <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}">
+          {%- if block.settings.image -%}
+            {%- assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round -%}
+            {{ block.settings.image | image_url: width: 3840 | image_tag:
+              loading: 'lazy',
+              height: height,
+              sizes: "100vw",
+              widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+            }}
+          {%- else -%}
+            {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+        </div>
+        <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
+        </div>
+      </div>
+    {%- endfor -%}
+  </div> {% endcomment %}

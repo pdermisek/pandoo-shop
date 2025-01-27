@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
     "main": {
       "type": "main-page",
@@ -15,9 +15,402 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "landing_image_banner_UgTMb3": {
+      "type": "landing-image-banner",
+      "blocks": {
+        "heading_hGWJ8b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hero title",
+            "heading_size": "h1"
+          }
+        },
+        "text_QgbV7D": {
+          "type": "text",
+          "settings": {
+            "text": "I'm Brian, and so's my wife! Listen, strange women lyin' in ponds distributin' swords is no basis for a system of government. Supreme executive power derives from a mandate from the masses, not from some farcical aquatic ceremony.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hGWJ8b",
+        "text_QgbV7D"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/multiy_wind.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "landing_multicolumn_FH9a6K": {
+      "type": "landing-multicolumn",
+      "blocks": {
+        "column_HVpdTB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/world_1.png",
+            "title": "Card title",
+            "subtitle": "Card subtitle",
+            "text": "<p>You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called \"Arthur King,\" you and all your silly English K-nig-hts. Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off! Oh, king eh? Very nice. And how'd you get that, eh? By exploiting the workers.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QpwXNh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/solar_1.png",
+            "title": "Card title",
+            "subtitle": "Card subtitle",
+            "text": "<p>You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called \"Arthur King,\" you and all your silly English K-nig-hts. Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off! Oh, king eh? Very nice. And how'd you get that, eh? By exploiting the workers.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_t9LiVi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/wind_1.png",
+            "title": "Card title",
+            "subtitle": "Card subtitle",
+            "text": "<p>You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called \"Arthur King,\" you and all your silly English K-nig-hts. Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off! Oh, king eh? Very nice. And how'd you get that, eh? By exploiting the workers.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_HVpdTB",
+        "column_QpwXNh",
+        "column_t9LiVi"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "rich_text_TJkhPD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yhPTyd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Section title</p>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yhPTyd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 100
+      }
+    },
+    "landing_image_with_text_TmrMXh": {
+      "type": "landing-image-with-text",
+      "blocks": {
+        "heading_A9ND3H": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subsection Title",
+            "heading_size": "h2"
+          }
+        },
+        "text_QmtJA6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called \"Arthur King,\" you and all your silly English K-nig-hts. Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off! Oh, king eh? Very nice. And how'd you get that, eh? By exploiting the workers. By hanging on to outdated imperialist dogma which perpetuates the economic and social differences in our society.<br/><br/>Are you suggesting coconuts migrate? The Lady of the Lake, her arm clad in the purest shimmering samite held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. THAT is why I am your king. Come and see the violence inherent in the system. Help! Help! I'm being repressed! I'm Brian, and so's my wife! I don't want to talk to you no more, you empty-headed animal food trough wiper! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries!<br/><br/>What is the capital of Assyria? Listen, strange women lyin' in ponds distributin' swords is no basis for a system of government. Supreme executive power derives from a mandate from the masses, not from some farcical aquatic ceremony.<br/><br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_A9ND3H",
+        "text_QmtJA6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pinwheel-50512_1280.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "padding_top": 16,
+        "padding_bottom": 64
+      }
+    },
+    "landing_image_with_text_PphqMG": {
+      "type": "landing-image-with-text",
+      "blocks": {
+        "heading_9Md764": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subsection title",
+            "heading_size": "h2"
+          }
+        },
+        "text_KxhbzV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called \"Arthur King,\" you and all your silly English K-nig-hts. Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off! Oh, king eh? Very nice. And how'd you get that, eh? By exploiting the workers. By hanging on to outdated imperialist dogma which perpetuates the economic and social differences in our society.<br/><br/>Are you suggesting coconuts migrate? The Lady of the Lake, her arm clad in the purest shimmering samite held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. THAT is why I am your king. Come and see the violence inherent in the system. Help! Help! I'm being repressed! I'm Brian, and so's my wife! I don't want to talk to you no more, you empty-headed animal food trough wiper! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries!<br/><br/>What is the capital of Assyria? Listen, strange women lyin' in ponds distributin' swords is no basis for a system of government. Supreme executive power derives from a mandate from the masses, not from some farcical aquatic ceremony.<br/><br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9Md764",
+        "text_KxhbzV"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/photovoltaic-system-2742302_1920.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 96
+      }
+    },
+    "landing_rich_text_button_CH3YzE": {
+      "type": "landing-rich-text-button",
+      "blocks": {
+        "button_fW4UNz": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_fW4UNz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 96
+      }
+    },
+    "rich_text_yNnxeX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3fbBNc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Section title</p>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3fbBNc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 96,
+        "padding_bottom": 100
+      }
+    },
+    "landing_slideshow_BgjnXz": {
+      "type": "landing-slideshow",
+      "blocks": {
+        "slide_yHLQCP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/solar_panel_on_roof.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_nHiDfX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/energy-2181904_1920.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_7bwGEp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/photovoltaic-system-2742302_1920.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_86eXUt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/wind_in_clouds.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_btGH8J": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/wind_one.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_yHLQCP",
+        "slide_nHiDfX",
+        "slide_7bwGEp",
+        "slide_86eXUt",
+        "slide_btGH8J"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "newsletter_aR6GQd": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_eH8zQn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_N6jgAN": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_Ei7RXG": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_eH8zQn",
+        "paragraph_N6jgAN",
+        "email_form_Ei7RXG"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "landing_image_banner_UgTMb3",
+    "landing_multicolumn_FH9a6K",
+    "rich_text_TJkhPD",
+    "landing_image_with_text_TmrMXh",
+    "landing_image_with_text_PphqMG",
+    "landing_rich_text_button_CH3YzE",
+    "rich_text_yNnxeX",
+    "landing_slideshow_BgjnXz",
+    "newsletter_aR6GQd"
   ]
 }
