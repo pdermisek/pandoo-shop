@@ -167,6 +167,11 @@
   margin: -3rem auto 0;
 }
 
+.image-with-text image-with-text--no-overlap page-width isolate collapse-corners section-template--17318140346507__image_with_text_MNW4q3-padding {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 @media screen and (min-width: 750px) {
   .image-with-text__grid--reverse .image-with-text__content {
     margin-left: auto;
